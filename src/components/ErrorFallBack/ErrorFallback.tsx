@@ -7,7 +7,7 @@ interface IErrorFallBack {
 function ErrorFallBack({ error, resetErrorBoundary }: IErrorFallBack) {
   return (
     <div className={styles.container}>
-      <div className={styles.content}>
+      <div>
         <h1>Something went wrong </h1>
         <pre className="text-default">{error.message}</pre>
         <Button onClick={resetErrorBoundary} label="Back" />

@@ -1,0 +1,1 @@
+export const hasContent = (records: any[]) => records && records.length > 0;

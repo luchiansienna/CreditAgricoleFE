@@ -1,0 +1,10 @@
+
+@import "../../App.css";
+
+.header
+{
+    background: var(--color-primary);
+    margin: 0;
+    padding: 2rem;
+    color: white;
+}

@@ -46,7 +46,7 @@ I have used useState hook locally to manage the state.
 2. **npm start** to start the app on local machine
 
 Hitting GET on the /api/productlist endpoint will return the list of products with ID and name, 10 hardcoded products.
-The second enpoint is the price list websocket /ws/productprices , which returns the price list array every second. The prices are generated randomly, a number between 1 and 100.
+The second enpoint is the price list websocket /ws/productprices , which returns the price list array every second. The prices are generated randomly, a decimal number between 1 and 100.
 
 ## CSS Styling
 

@@ -64,7 +64,7 @@ KISS and DRY principles are applied.
 
 ## Improvements / additions that can be useful are : 
 
-* A global state tool (like redux) can be implemented if app gets more complex
+* A global state tool (like redux) can be implemented if app gets more complex and needs this
 * LazyLoading and Routes can be put in place if app requires more pages.
 * Product list can be cached at a period of time if it does not change often
 * Unit tests and e2e tests

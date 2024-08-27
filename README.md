@@ -69,7 +69,7 @@ KISS and DRY principles are applied.
 * Product list can be cached at a period of time if it does not change often
 * Unit tests and e2e tests
 * Authentication & Authorization
-* Making the app responsive for multiple devices screens
+* Making the app responsive for multiple device screens
 * Web accessibility can be setup in place if used with tools like Narator.
 If it's the case, web accessibility should be implemented in places. It ensures that all users, including those using screen readers or other assistive technologies, can interact with your content effectively
 Also, browsers can understand and present in a better way the app to the users if WebAccessiblity is in place.

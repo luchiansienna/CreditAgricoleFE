@@ -72,7 +72,7 @@ KISS and DRY principles are applied.
 * Making the app responsive for multiple device screens
 * Web accessibility can be setup in place if used with tools like Narator.
 If it's the case, web accessibility should be implemented in places. It ensures that all users, including those using screen readers or other assistive technologies, can interact with the content effectively
-Also, browsers can understand and present the content in a better way the app to the users if WebAccessiblity is in place.
+Also, browsers can understand and present the content of the app in a better way to the users if WebAccessiblity is in place.
 
 ## Data Models
 

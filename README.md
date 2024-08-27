@@ -34,7 +34,7 @@ I have used `.pipe(startWith(), pairwise())` on the rxjs websocket to get the pr
 The app automatically starts to subscribe to the host provided in the env file. 
 It uses useEffect to make it to start at the beginning, when loading the page, and it closes the connection when functional component unmounts with the following clean up function `return () => stopSubscription()`
 
-On local it should look like this: **REACT_APP_CREDIT_AGRICOLE_API_URL**=https://localhost:7242
+On local the env file should look like this: **REACT_APP_CREDIT_AGRICOLE_API_URL**=https://localhost:7242
 
 I have also created a custom hook called **PriceSubscriptionHook** to manage separately the starting and ending of the subscription.
 I have used useState hook locally to manage the state.

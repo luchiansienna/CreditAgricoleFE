@@ -8,8 +8,6 @@ The subscription can be stopped and started anytime at the user's convenience.
 
 The app displays a list of prices on the front-end every second being updated with new prices.
 
-I have used useState hook to manage the state.
-
 There are 2 endpoints in place for this app to call: 
 
 * **/api/productlist** : API endpoint that returns the list of the products without prices, just ID and name.
@@ -39,6 +37,7 @@ It uses useEffect to make it to start at the beginning, when loading the page, a
 On local it should look like this: **REACT_APP_CREDIT_AGRICOLE_API_URL**=https://localhost:7242
 
 I have also created a custom hook called **PriceSubscriptionHook** to manage separately the starting and ending of the subscription.
+I have used useState hook locally to manage the state.
 
 ## Steps to set the app on your local machine
 

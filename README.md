@@ -13,7 +13,8 @@ There are 2 endpoints in place for this app to call:
 * **/api/productlist** : API endpoint that returns the list of the products without prices, just ID and name.
 
 
-* **/ws/productprices** : For Price List every second updates I have used a WebSocket returning an array with ProductID, Price and UpdatedAt 
+* **/ws/productprices** : For Price List every second updates I have used a WebSocket returning an array with ProductID, Price and UpdatedAt .
+
 I have used UpdatedAt field part of the price list entity with the purpose of displaying a precise time to that specific price.
 The price is being generated in the back end service, it could be at different times (in the interval of one second) than the other prices.
 

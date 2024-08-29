@@ -14,7 +14,8 @@ There are 2 endpoints in place for this app to call:
 
 
 * **/ws/productprices** : For Price List every second updates I have used a WebSocket returning an array with ProductID, Price and UpdatedAt 
-( I have used UpdatedAt field for the showing a precise time, because the price is generated in the back end service so the price might be generated at different times than the others, at any time in the interval of one second )
+I have used UpdatedAt field part of the price list entity with the purpose of displaying a precise time to that specific price.
+The price is being generated in the back end service, it could be at different times (in the interval of one second) than the other prices.
 
 I have used websocket because compared to the HTTP protocol, WebSocket eliminates the need for a new connection with every request,
  reducing the size of each message (no HTTP headers).

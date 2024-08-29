@@ -1,4 +1,4 @@
-import { Price } from "./Currency";
+import { Price } from "./Price";
 
 export type ProductPrice = {
     ProductId: number;

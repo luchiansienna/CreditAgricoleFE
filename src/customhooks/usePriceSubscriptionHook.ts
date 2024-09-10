@@ -7,7 +7,7 @@ import { ProductPrice } from "../models/ProductPrice";
 
 let subscription: Subscription;
 
-export const PriceSubscriptionHook = () => {
+export const usePriceSubscriptionHook = () => {
     const [products, setProducts] = useState<Product[]>([]);
     const [productPrices, setProductPrices] = useState<ProductPrice[]>([]);
     const [previousPrices, setPreviousPrices] = useState<ProductPrice[]>([]);

@@ -3,7 +3,7 @@ import styles from "./ProductsPage.module.css";
 import { Button } from "../components/Button/Button";
 import { Loading } from "../components/Loading/Loading";
 import { hasContent } from "../utils/utils";
-import { PriceSubscriptionHook } from "../customhooks/PriceSubscriptionHook";
+import { usePriceSubscriptionHook } from "../customhooks/usePriceSubscriptionHook";
 
 const ProductsPage = () => {
   const {

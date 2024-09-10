@@ -15,7 +15,7 @@ const ProductsPage = () => {
     isLoading,
     startSubscription,
     stopSubscription,
-  } = PriceSubscriptionHook();
+  } = usePriceSubscriptionHook();
 
   return (
     <div className={styles.container}>
